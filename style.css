@@ -1,0 +1,128 @@
+h1 {
+    text-align: center;
+    color: rgb(211, 19, 185);
+    text-emphasis-color: blue;
+    color: rgb(16, 17, 19);
+    border: 10px rgb(234, 238, 12) solid;
+    border-radius: 25px;
+    flex: center;
+    text-align: center;
+    background-color: white;
+    will-change: scroll-position;
+    border-spacing: 60px;
+}
+
+p {
+    nav-down: auto;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 50px;
+    color: blue;
+    font-size: 25px;
+    font-family: 25px;
+}
+
+#section1 {
+    border: 10px maroon solid;
+    border-radius: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 50px;
+    padding-top: 25px;
+    padding-bottom: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: justify;
+    background-color: rgb(247, 162, 6);
+    list-style-position: center;
+}
+
+#section2 {
+    border: 10px maroon solid;
+    border-radius: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 50px;
+    padding-top: 25px;
+    padding-bottom: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: rgb(15, 166, 226);
+    h1 {
+        text-emphasis-color: blue;
+        color: rgb(6, 69, 245);
+        border: 10px rgb(234, 238, 12) solid;
+        border-radius: 25px;
+        flex: center;
+        text-align: center;
+        background-color: maroon;
+    }
+    li {
+        color: red;
+        margin: 25px;
+        text-align: justify;
+        color: rgb(19, 19, 20);
+    }
+}
+
+#section2>h1 {
+    color: red;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: gray;
+}
+
+#section3 {
+    border: 10px maroon solid;
+    border-radius: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 50px;
+    padding-top: 25px;
+    padding-bottom: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: rgb(5, 168, 32);
+    text-align: center;
+    h1 {
+        color: rgb(14, 241, 241);
+        border: 10px rgb(234, 238, 12) solid;
+        border-radius: 25px;
+        flex: center;
+        text-align: center;
+        background-color: maroon;
+    }
+    div {
+        margin: 25px;
+        text-size-adjust: 60px;
+        text-shadow: white;
+        text-align: justify;
+        color: rgb(19, 19, 20);
+    }
+}
+
+.inputs {
+    width: 100%;
+    height: 20px;
+    margin: 5px;
+}
+
+#submitBtn {
+    height: 25px;
+    border: none;
+    background-color: black;
+    color: white;
+    width: 50px;
+    text-align: center;
+    margin: 5px;
+}
+
+#submitBtn:hover {
+    background-color: gray;
+}
